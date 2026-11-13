@@ -35,3 +35,7 @@ Research date: November 13, 2026. These are research candidates, not an accepted
 ## Validation
 
 JavaScript syntax checks and dataset checks passed: 20 records, 20 unique emails and the five requested area codes. Visual browser QA was unavailable in the build environment.
+
+## Contact dataset upload pending
+
+The `dist/data.js` dataset has not been uploaded. Publishing the researched personal contact details to this public repository requires explicit approval. The dashboard requires this file to display records; the current repository contains the application code only.
