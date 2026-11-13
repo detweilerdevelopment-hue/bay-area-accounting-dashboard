@@ -38,4 +38,10 @@ JavaScript syntax checks and dataset checks passed: 20 records, 20 unique emails
 
 ## Contact dataset upload pending
 
-The `dist/data.js` dataset has not been uploaded. Publishing the researched personal contact details to this public repository requires explicit approval. The dashboard requires this file to display records; the current repository contains the application code only.
+The `dist/data.js` file contains an empty placeholder; the researched contact dataset has not been uploaded. Publishing the researched personal contact details to this public repository requires explicit approval. The dashboard loads with an explicit empty state until the researched dataset is approved for public release.
+
+## Deploy on Vercel
+
+Import the repository with **Root Directory** set to the repository root (leave it blank), and use the **Other** framework preset. The committed `vercel.json` serves `dist/` directly with no install or build command. Deploy the latest `main` commit. No database, environment variables, or API keys are required.
+
+A successful deployment with a root-page 404 usually means Vercel served the repository root instead of `dist/`. This configuration explicitly sets the output directory. If an older deployment is still selected, deploy the latest commit from `main`.
