@@ -36,9 +36,9 @@ Research date: November 13, 2026. These are research candidates, not an accepted
 
 JavaScript syntax checks and dataset checks passed: 20 records, 20 unique emails and the five requested area codes. Visual browser QA was unavailable in the build environment.
 
-## Contact dataset upload pending
+## Contact dataset
 
-The `dist/data.js` file contains an empty placeholder; the researched contact dataset has not been uploaded. Publishing the researched personal contact details to this public repository requires explicit approval. The dashboard loads with an explicit empty state until the researched dataset is approved for public release.
+The 20-contact research sample is included in `dist/data.js`. Public publication was explicitly approved by the repository owner. Qualification limitations above still apply.
 
 ## Deploy on Vercel
 
